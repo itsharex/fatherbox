@@ -47,7 +47,7 @@ static DEFAULT_CONFIG: &str = include_str!("../config.toml");
 #[derive(Parser)]
 #[command(version)]
 #[command(name = "fb")]
-#[command(about = "Father Box .")]
+#[command(about = "FatherBox .")]
 #[command(author = "blackstar-baba <535650957@qq.com>")]
 struct Args {
     /// path to config file
@@ -60,7 +60,7 @@ struct Args {
 
 fn banner() {
     const B: &str = r"
-        Father Box
+        FatherBox
     ";
     println!("{B}\n");
 }

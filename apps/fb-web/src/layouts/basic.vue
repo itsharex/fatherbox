@@ -23,7 +23,7 @@ const notifications = ref<NotificationItem[]>([
     avatar: '/logo.png',
     date: '2024-08-17',
     isRead: true,
-    message: 'Welcome Use Father Box',
+    message: 'Welcome Use FatherBox',
     title: 'Hello, World',
   },
 ]);
